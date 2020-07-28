@@ -6,7 +6,6 @@ body {
 
 p, .top {
   color: #66ff99;
-  text-shadow: 7px 0 #232931;
   font-size: 2rem;
   padding: 2px;
 }
@@ -23,7 +22,6 @@ img {
 .scoreBoard {
   background-image: linear-gradient(to bottom, rgba(31, 72, 200, 1), rgba(53, 13, 249, 1), rgba(46, 15, 245, 0), rgba(83, 141, 253, 1), rgba(255, 255, 255, 1));
   border-radius: 5%;
-  box-shadow: 3px 10px 8px #888888;
 }
 
 .col {
@@ -41,10 +39,6 @@ img {
   color: red;
   font-weight: bolder;
   text-shadow: none;
-}
-
-.rolldice {
-  box-shadow: 5px 10px 8px #888888;
 }
 
 /* Media queries */
