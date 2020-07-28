@@ -4,15 +4,19 @@ body {
   font-family: 'Orbitron', sans-serif;
 }
 
+input {
+  width: 100%;
+}
+
+img {
+  margin: 27%;
+  width: 50%;
+}
+
 p, .top {
   color: #66ff99;
   font-size: 2rem;
   padding: 2px;
-}
-
-img {
-  margin: 21%;
-  width: 50%;
 }
 
 .top {
@@ -22,6 +26,7 @@ img {
 .scoreBoard {
   background-image: linear-gradient(to bottom, rgba(31, 72, 200, 1), rgba(53, 13, 249, 1), rgba(46, 15, 245, 0), rgba(83, 141, 253, 1), rgba(255, 255, 255, 1));
   border-radius: 5%;
+  margin-bottom: 7%;
 }
 
 .col {
@@ -40,38 +45,39 @@ img {
   color: red;
   font-weight: bolder;
   text-shadow: none;
+  width: 100%;
 }
 
 /* Media queries */
-/* Small devices */
+/* Small devices (576px and up) */
 
-@media only screen and (max-width:768px) {
+@media (min-width: 576px) {
   img {
     margin: 21%;
     width: 70%;
   }
 }
 
-/*  Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) {
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
   img {
     margin: 10%;
     width: 50%;
   }
 }
- */
-/* // Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) {
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   img {
     margin: 7%;
     width: 45%;
   }
-} */
+}
 
-/* // Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
   img {
     margin: 6%;
     width: 30%;
   }
-} */
+}
