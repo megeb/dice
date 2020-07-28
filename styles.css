@@ -43,15 +43,16 @@ img {
 }
 
 /* Media queries */
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+/* Small devices */
+
+@media only screen and (max-width:768px) {
   img {
     margin: 21%;
     width: 70%;
   }
 }
 
-/* // Medium devices (tablets, 768px and up) */
+/*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   img {
     margin: 10%;
