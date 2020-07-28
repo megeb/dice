@@ -46,6 +46,9 @@ img {
 /* Small devices */
 
 @media only screen and (max-width:768px) {
+  input{
+    max-width:30%;
+  }
   img {
     margin: 21%;
     width: 70%;
