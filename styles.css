@@ -36,7 +36,6 @@ p, .top {
 .pName {
   font-size: 1rem;
   color: #232931;
-  font-family: cursive;
   font-weight: bolder;
 }
 
@@ -46,6 +45,10 @@ p, .top {
   font-weight: bolder;
   text-shadow: none;
   width: 100%;
+}
+
+.start {
+  margin: 2.5%;
 }
 
 /* Media queries */
