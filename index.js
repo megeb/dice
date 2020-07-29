@@ -1,15 +1,15 @@
 function myFunction() {
   let counterP1 = 0;
-  let counterP2 = 0;
-  let randomNumber1 = Math.floor(Math.random() * 6) + 1;
-  let randomNumber1img = "images/dice" + randomNumber1 + ".png";
-  let randomNumber2 = Math.floor(Math.random() * 6) + 1;
-  let randomNumber2img = "images/dice" + randomNumber2 + ".png";
+      counterP2 = 0;
+      randomNumber1 = Math.floor(Math.random() * 6) + 1;
+      randomNumber1img = "images/dice" + randomNumber1 + ".png";
+      randomNumber2 = Math.floor(Math.random() * 6) + 1;
+      randomNumber2img = "images/dice" + randomNumber2 + ".png";
   document.querySelector(".img1").setAttribute("src", randomNumber1img);
   document.querySelector(".img2").setAttribute("src", randomNumber2img);
-  var x = document.getElementById("playerName1").value;
+      x = document.getElementById("playerName1").value;
   document.getElementById("playerName1").innerHTML = x;
-  var y = document.getElementById("playerName2").value;
+     y = document.getElementById("playerName2").value;
   document.getElementById("playerName2").innerHTML = y;
   if (randomNumber1 > randomNumber2) {
     counterP1 = document.querySelector(".p1Counter").innerHTML;
